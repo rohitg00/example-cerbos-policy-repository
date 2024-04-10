@@ -61,15 +61,15 @@ tests:
       - principal: ian
         resource: resource1
         actions:
-          read: EFFECT_DENY #DENYING FOR TEST DEMO
-          update: EFFECT_DENY #DENYING FOR TEST DEMO
+          read: EFFECT_ALLOW #DENYING FOR TEST DEMO
+          update: EFFECT_ALLOW #DENYING FOR TEST DEMO
           delete: EFFECT_ALLOW
       - principal: ian
         resource: resource2
         actions:
           read: EFFECT_ALLOW
           update: EFFECT_ALLOW
-          delete: EFFECT_DENY #DENYING FOR TEST DEMO
+          delete: EFFECT_ALLOW #DENYING FOR TEST DEMO
       - principal: ian
         resource: resource3
         actions:
